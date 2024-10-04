@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CatAndMouse" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.CatAndMouse.SplashScreen" parent="Theme.SplashScreen">
+        <!-- Фон заставки -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Иконка заставки -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+
+        <!-- Основная тема приложения -->
+        <item name="postSplashScreenTheme">@style/Theme.CatAndMouse</item>
+
+    </style>
+</resources>
